@@ -1,0 +1,8 @@
+*
+!Containerfile
+!verifier/
+!verifier/package.json
+!verifier/package-lock.json
+!verifier/browser.mjs
+!shared/
+!shared/seed.mjs

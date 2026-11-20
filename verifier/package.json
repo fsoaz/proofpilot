@@ -1,0 +1,1 @@
+{"name":"proofpilot-verifier","private":true,"type":"module","dependencies":{"@playwright/test":"1.64.1"}}

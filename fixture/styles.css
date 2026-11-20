@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f0f3fa; color: #202944; font: 16px/1.4 system-ui, sans-serif; }
+main { width: min(850px, calc(100% - 80px)); margin: 34px auto; padding: 26px 34px 34px; background: white; border: 1px solid #e2e7f2; border-radius: 18px; }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 750; }
+.brand-mark { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 9px; color: #fff; background: #4e58cf; }
+.workspace { margin-left: auto; color: #64708a; font-size: 13px; font-weight: 500; }
+.heading { display: flex; align-items: end; justify-content: space-between; gap: 12px; margin: 33px 0 20px; }
+.context { color: #5966cf; font-size: 13px; font-weight: 700; margin: 0 0 4px; }
+h1 { margin: 0; font-size: 32px; letter-spacing: -.045em; }
+nav:not(:empty) { display: flex; gap: 6px; padding-bottom: 12px; }
+button { font: inherit; font-size: 13px; font-weight: 670; padding: 8px 12px; border-radius: 7px; border: 1px solid #dce2ef; color: #333d62; background: white; cursor: pointer; }
+button[aria-pressed=true] { background: #ecedff; color: #363db1; }
+#actions button { background: #4e58cf; border-color: #4e58cf; color: white; }
+ul { list-style: none; padding: 0; margin: 0; border: 1px solid #e2e7f2; border-radius: 10px; overflow: hidden; }
+li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 13px 15px; min-height: 49px; }
+li + li { border-top: 1px solid #edf0f7; }
+label { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600; }
+input { accent-color: #4e58cf; width: 16px; height: 16px; margin: 0; }
+small { color: #596786; font-size: 12px; }
+.empty { color: #64708a; padding: 14px 0; }
